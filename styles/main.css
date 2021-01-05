@@ -1,0 +1,71 @@
+* {
+    border: 1px dotted lightskyblue;
+    padding: 1em;
+    margin: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: 10vh;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header {
+    text-align: center;
+    font-weight: bold;
+    color: royalblue;
+    border: 1px solid lightskyblue;
+    border-radius: .5rem;
+}
+
+.fish-card {
+    display: flex;
+}
+
+.img-box {
+    display: inline-block;
+    /* justify-content: right; */
+    /* align-items: right; */
+    width: 15vw;
+}
+
+.fish-img {
+    width: 70%;
+    height: 50%;
+}
+
+.stat-grid {
+    display: inline-block;
+    /* justify-content: center; */
+    /* align-items: right; */
+    width: 40vw;
+}
+
+.personal-quote {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.location-card {
+    width: 25vw;
+    height: 30vh;
+    background-color: whitesmoke;
+}
