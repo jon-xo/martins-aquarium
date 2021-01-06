@@ -23,8 +23,8 @@ img {
 .flex-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 .section-header {
@@ -37,18 +37,13 @@ img {
 
 .fish-card {
     display: flex;
-}
-
-.img-box {
-    display: inline-block;
-    /* justify-content: right; */
-    /* align-items: right; */
-    width: 15vw;
+    align-items: center;
+    border: 1px solid silver;
 }
 
 .fish-img {
-    width: 70%;
-    height: 50%;
+    width: 10vw;
+    height: 40vh;
 }
 
 .stat-grid {
@@ -66,6 +61,11 @@ img {
 
 .location-card {
     width: 25vw;
-    height: 30vh;
+    height: 40vh;
     background-color: whitesmoke;
+}
+
+.location-card img {
+    width: 70%;
+    height: 40%;
 }
