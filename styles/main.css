@@ -5,8 +5,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+:root {
+ /* CSS HEX */
+--pacific-blue: #2ab7caff;
+--orange-yellow-crayola: #fed766ff;
+--gainsboro: #e6e6eaff;
+--davys-grey: #50514fff;
+--fire-opal: #f25f5cff;
+}
+
 img {
     height: 10vh;
+    background-color: var(--pacific-blue);
 }
 
 .banner {
