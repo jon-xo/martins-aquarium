@@ -10,28 +10,28 @@
           name: "George",
           species: "Beta Fish",
           length: "2 inches",
-          locationFound: "Galapagos Island",
+          locationHarvested: "Galapagos Island",
           Food: "Pretzels"
       },
       {
         name: "Frank",
         species: "Gold Fish",
         length: "3 inches",
-        locationFound: "Barbadis",
+        locationHarvested: "Barbadis",
         Food: "Snails"
       },
       {
         name: "Mike",
         species: "Sword Fish",
         length: "4 feet, 6 inches",
-        locationFound: "Virgin Islands",
+        locationHarvested: "Virgin Islands",
         Food: "Clown Fish"
       },
       {
         name: "Samantha",
         species: "Clown Fish",
         length: "3 inches",
-        locationFound: "Hawaii",
+        locationHarvested: "Hawaii",
         Food: "Plankton"
       },
   ]
