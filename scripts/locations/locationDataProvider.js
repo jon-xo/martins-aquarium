@@ -19,4 +19,4 @@ const locationContainer = [
 
 export const locationData = () => {
     return locationContainer.slice();
-}
+}     
