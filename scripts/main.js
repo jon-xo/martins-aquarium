@@ -1,3 +1,3 @@
-import { fishList } from "./FishList.js";
+import { fishList } from "./fish/FishList.js";
 
 fishList();
