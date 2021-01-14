@@ -11,29 +11,32 @@
           species: "Beta Fish",
           length: "2 inches",
           locationHarvested: "Galapagos Island",
-          Food: "Pretzels"
+          food: "Pretzels"
       },
       {
         name: "Frank",
         species: "Gold Fish",
         length: "3 inches",
         locationHarvested: "Barbadis",
-        Food: "Snails"
+        food: "Snails"
       },
       {
         name: "Mike",
         species: "Sword Fish",
         length: "4 feet, 6 inches",
         locationHarvested: "Virgin Islands",
-        Food: "Clown Fish"
+        food: "Clown Fish"
       },
       {
         name: "Samantha",
         species: "Clown Fish",
         length: "3 inches",
         locationHarvested: "Hawaii",
-        Food: "Plankton"
+        food: "Plankton"
       },
   ]
 
-  console.log(fishCollection);
+// This is new code. Add this.
+export const useFish = () => {
+  return fishCollection.slice()
+}
