@@ -17,7 +17,7 @@
         name: "Frank",
         species: "Gold Fish",
         length: "3 inches",
-        locationHarvested: "Barbadis",
+        locationHarvested: "Barbados",
         food: "Snails"
       },
       {

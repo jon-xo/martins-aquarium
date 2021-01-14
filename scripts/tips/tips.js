@@ -1,6 +1,6 @@
 export const tipsCard = (tipsObject) => {
     return `
-    <article class='aside-section'>
+    <article class="aside-section">
         <h3>${tipsObject.waterType}</h3>
         <ul>
             <li>Akalinity: ${tipsObject.akalinity}</li>
