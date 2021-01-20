@@ -17,6 +17,10 @@ const locationContainer = [
     }
 ];
 
-export const locationData = () => {
+// export const locationData = () => {
+//     return locationContainer.slice();
+// }
+
+export function locationData() {
     return locationContainer.slice();
-}     
+};
